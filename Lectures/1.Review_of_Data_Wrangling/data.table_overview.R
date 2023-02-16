@@ -2,8 +2,8 @@ library(dplyr)
 library(data.table)
 
 
-#download.file(url="https://s3.amazonaws.com/stat.184.data/Flights/2008.csv",destfile='./Lectures/1.Review_of_Data_Wrangling/Data/2008.csv', method='curl')
-#download.file(url="https://s3.amazonaws.com/stat.184.data/Flights/airports.csv",destfile='./Lectures/1.Review_of_Data_Wrangling/Data/airports.csv', method='curl')
+download.file(url="https://s3.amazonaws.com/stat.184.data/Flights/2008.csv",destfile='./Lectures/1.Review_of_Data_Wrangling/Data/2008.csv', method='curl')
+download.file(url="https://s3.amazonaws.com/stat.184.data/Flights/airports.csv",destfile='./Lectures/1.Review_of_Data_Wrangling/Data/airports.csv', method='curl')
 
 #DT will be used to reference a data.table object
 #DF will be used to reference a data.frame object
